@@ -1,0 +1,233 @@
+body {
+
+    background-color: lightgray;
+    font-family: Helvetica;
+    margin: 0;
+
+}
+
+ul {
+
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+.scrolled {
+    background-color: #5D5D8C;
+}
+
+li {
+    float: right;
+    padding: 1.8em;
+}
+
+li a {
+
+    color: white;
+    font-size: 80%;
+
+}
+
+li a:hover {
+    font-weight: 700;
+}
+
+
+aside {
+    background-color: pink;
+    background-image: url(achtergrond_golf3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 35em;
+
+}
+
+aside img {
+
+    float: none;
+    position: relative;
+    visibility: hidden;
+
+}
+
+img {
+
+    vertical-align: middle;
+}
+
+
+
+h1 {
+    color: #5D5D8C;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+h2 {
+
+    color: #5D5D8C;
+    margin-top: 10%;
+
+}
+
+
+p {
+
+    font-size: 13pt;
+    margin-bottom: 10%;
+    margin-top: 8%;
+
+}
+
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+section img {
+
+    align-self: end;
+    border-radius: 100%;
+    margin-top: 3%;
+
+}
+
+
+a {
+
+    font-size: 85%;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+footer {
+
+    background-color: #5D5D8C;
+    color: white;
+    font-family: Helvetica;
+    font-size: 85%;
+    margin: 0;
+    margin-top: 5%;
+    padding: 3em;
+    text-align: center;
+
+}
+
+footer p {
+
+    font-size: 10pt;
+    margin: 0;
+}
+
+#hoofd {
+
+    max-width: 50%;
+
+}
+
+main aside {
+
+    background-color: transparent;
+    background-image: none;
+
+}
+
+.idk {
+
+    border-radius: 0;
+    margin: 0;
+    margin-right: 3%;
+}
+
+aside a {
+
+    color: black;
+    font-size: 11pt;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+aside a:hover {
+
+    color: #5D5D8C;
+
+}
+
+#elements {
+
+    margin: 10%;
+
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2em;
+
+    }
+
+    img {
+
+        float: left;
+        vertical-align: middle;
+    }
+
+    #hoofd {
+
+        max-width: 85%;
+
+    }
+
+    .h2 {
+
+        grid-column: 1/3;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .wrapper {
+
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 2em;
+    }
+
+    .intro {
+
+        grid-column: 2/4;
+
+    }
+
+    .h2 {
+
+        grid-column: 1/4;
+    }
+
+
+}

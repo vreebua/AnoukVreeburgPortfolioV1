@@ -1,0 +1,122 @@
+body {
+
+    background-color: lightgray;
+    font-family: Helvetica;
+    margin: 0;
+    text-align: center;
+
+}
+
+ul {
+
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+.scrolled {
+    background-color: #5D5D8C;
+}
+
+li {
+
+    float: right;
+    padding: 1.5em;
+}
+
+li a {
+
+    color: white;
+    font-size: 80%;
+
+}
+
+li a:hover {
+
+    font-weight: 700;
+}
+
+a {
+
+    font-size: 85%;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+aside {
+    background-color: pink;
+    background-image: url(achtergrond_golf3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 22em;
+
+}
+
+aside img {
+
+    float: none;
+    position: relative;
+    visibility: hidden;
+
+}
+
+h1 {
+
+    color: #5D5D8C;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+main {
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section img {
+
+    border-radius: 100%;
+    margin-top: 3%;
+}
+
+section {
+
+    margin-bottom: 30%;
+
+}
+
+footer {
+
+    background-color: #5D5D8C;
+    color: white;
+    font-family: Helvetica;
+    font-size: 85%;
+    margin: 0;
+    padding: 3em;
+    text-align: center;
+
+}
+
+p {
+
+    font-size: 13pt;
+
+}
+
+
+
+footer p {
+
+    font-size: 10pt;
+    margin: 0;
+
+}
